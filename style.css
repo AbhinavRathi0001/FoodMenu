@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    background-color: whitesmoke;
+    list-style: none;
+    box-shadow: 0px 0px 6px 0px black;
+    position: fixed;
+    width: 100%;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 8px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li a:hover {
+    background-color: lightgray;
+}
+
+.p-primary {
+    position: relative;
+    top: -84px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 21px;
+    font-size: 40px;
+    color: rgb(79, 78, 78);
+}
+
+.about {
+    padding: 25px 107px;
+}
+
+.about h1 {
+    padding: 0px 0px 50px 170px;
+    letter-spacing: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about h3 {
+    padding: 0px 0px 50px 200px;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about p {
+    padding: 0px 0px 50px 60px;
+    line-height: 35px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about .ab-right {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.menu {
+    padding: 107px;
+}
+
+.menu-left {
+    text-align: left;
+}
+
+.menu-left h1 {
+    padding-top: 66px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 9px;
+}
+
+.menu-left h3 {
+    padding: 30px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
+
+.menu-left p {
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+
+.contact {
+    padding: 0px 204px 0px 108px;
+}
+
+.contact h1 {
+    display: flex;
+    padding: 80px 3px;
+}
+
+form {
+    padding: 30px 107px;
+}
+
+.fill-form {
+    padding: 18px 987px 18px 0px;
+    margin: 4px 0px;
+}
+#fill{
+    padding-right: 945px;
+}
+
+form p input {
+    border: none;
+    border-bottom: 1px solid darkgrey;
+    display: block;
+}
+
+form p button {
+    padding: 10px 37px;
+    border: none;
+    margin: 33px 0px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+footer{
+    background-color: whitesmoke;
+    font-size: larger;
+    text-align: center;
+    padding: 16px;
+}

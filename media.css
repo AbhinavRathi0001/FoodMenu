@@ -1,0 +1,80 @@
+@media screen and (max-width:1100px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    header nav{
+        display: flex;
+        flex-direction: column;
+        height: 50px;
+    }
+    .container img{
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+    .p-primary{
+        font-size: 40px;
+        position: relative;
+        top: -60px;
+    }
+    .about{
+        display: flex;
+        justify-content: center;
+    }
+    .ab-left{
+        display: none;
+    }
+    
+    .about h1{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px 50px 0px;
+        margin-top: -97px;
+    }
+    .about h3{
+        padding: 12px 7px;;
+        margin: 0px -132px;
+        
+    }
+    .about p{
+        padding: 0px;
+        font-size: small;
+        line-height: normal; 
+        margin: 0px -122px;
+    }
+    .menu{
+        display: inline-grid;
+        margin: -66px -2px;
+        letter-spacing: 5px;
+    }
+    .menu-left h1{
+        margin: -93px -49px;
+padding: 57px 44px;
+    }
+    .menu-left p{
+        margin: 0px -67px;
+        letter-spacing: 2px;
+    }
+    .menu-right img{
+        width: 300px;
+height: 400px;
+    }
+    .contact h1{
+        margin: -38px -45px;
+    }
+    .contact p{
+        margin: 0px -205px;
+padding-left: 159px;
+    }
+    form{
+        padding: 30px 53px;
+    }
+    .fill-form{
+        padding: 18px 150px 18px 0px;
+    }
+    #fill{
+        padding: 18px 110px 18px 0px;
+    }
+    }
